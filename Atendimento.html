@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= "externo.css">
+    <title>Formulário</title>
+    
+</head>
+<body>
+    <div class="form">
+        <h1>Contato:</h1>
+        <form action="bemvindo.php" method="get">
+            Nome Completo: <input type="text" name="nome">
+            <p></p>
+            CPF: <input type="text" name="cpf">
+            <p></p>
+            <div>
+            Sexo:
+            <input type="radio" id="Masculino" name="Masculino" value="Masculino">
+            <label for="Masculino">Masculino</label>
+            <input type="radio" id="Feminino" name="Feminino" value="Feminino">
+            <label for="Feminino">Feminino</label>
+            </div>
+            <p></p>
+            Endereço: <input type="text" name=endereco">
+            <p></p>
+            <p></p>
+            telefone: <input type="text" name="teledone">
+            <p></p>
+            <p></p>
+            E-mail: <input type="email" name="email">
+            <p></p>
+            <p></p>Quais Animais você tem: </p>
+            <input type="checkbox" id="cao" name="cao" value="cao">
+            <label for="cao"> Cachorro</label>
+            <input type="checkbox" id="gato" name="gato" value="gato">
+            <label for="gato"> Gato</label>
+            <input type="checkbox" id="Ambos" name="Ambos" value="Ambos">
+            <label for="Ambos"> Ambos</label>
+            <input type="checkbox" id="outros" name="outros" value="Outros">
+            <label for="Outros"> Outros</label>
+            <P></P>
+            Quais Outros <input type="email" name="email">
+            <p></p>
+            <label for="tipo">Escolha a melhor opção:</label>
+            <select name="tipo">
+            <option value="branco"> </option>
+            <option value="Veterinario">Atendimento Veterinario</option>
+            <option value="banho">Banho e tosa</option>
+            <option value="ração">Ração</option>
+            <option value="remedio">Remedio</option>
+            <option value="acessorios">Acessorios</option>
+            </select>
+            <p></p>
+            <input type="submit" value="Enviar Dados">
+        </form>
+    </div>
+    
+</body>
+</html>
