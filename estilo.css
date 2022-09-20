@@ -76,22 +76,22 @@ body
 .titulo2
 {
 	position: relative;
-	top:150px;
-
+	top: 300px;
 	margin: 3%; 
 	padding: 7%;
 	text-align: justify;
 	color:aliceblue;
+	border-color: #ccc;
+	border-style: double;
+    border-radius: 10px;
 	
-	
-
 	
 }
 
 .tex
 {
 	position: relative;
-	top: 50px;
+	top: 50 px;
 	margin: 3%; 
 	padding: 7%;
 	color:rgb(91, 92, 92);
